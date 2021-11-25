@@ -3,7 +3,7 @@ package main;
 * The main program simply takes user input from all java base type variables and returns those user input values
 * from a scanner.
 *
-* @author Artamis Karrys
+* @author AKarrys
 * @since   2021-09-23 
 **/
 
