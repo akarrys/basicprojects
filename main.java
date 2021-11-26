@@ -1,17 +1,27 @@
 package main;
-/**
-* The main program simply takes user input from all java base type variables and returns those user input values
-* from a scanner.
-*
-* @author AKarrys
-* @since   2021-09-23 
-**/
+import java.util.*;
+import flower.Flower; //import package flower to use variables made private
+/*
+ * Program that is based off a flower shop scenario. Program asks customer for name of flower,
+ * and quantity. Cashier inputs price. The program then prints the results of whatever the customer and cashier inputs
+ * Author: AK
+ */
 
-public class main extends ExcerciseData  {  // extends main class to use ExcerciseData class fields and methods, ..inheritance
+
+public class main {
+
+
 
 	public static void main(String[] args) {
-	main.inputAllBaseTypes(a,b,user,d,e,f,g,h);  // a call to inputAllBaseTypes method in ExerciseData class
+		System.out.println(Flower.getName()); //call to getName method
+		System.out.println(Flower.getQuantity()); //call to getQuantity method
+		System.out.println(Flower.updatePrice(Flower.getPrice())); //call to getPrice method
 		
+		
+		
+		
+	 
+
 	}
 
 }
