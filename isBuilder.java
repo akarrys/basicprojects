@@ -7,11 +7,8 @@ import java.util.*;
  */
 
 public class isBuilder {
-	public static int beginIndex;  // making both int variables usable to other classes and main class
-	public static int endIndex;
-	
 
-	public static void main(String[] args) {  //main method
+ public static void main(String[] args) {  //main method
 		String str =  new String ("Let's try, Mike!");  //string builder instance
 		System.out.println(str.substring(0, 15));  // substring method to print from str index (0,15),
 		// TODO Auto-generated method stub
